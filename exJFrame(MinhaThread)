@@ -1,0 +1,9 @@
+package joao.victor;
+
+public class MinhaThread implements Runnable {
+
+    public void run() {
+     main.criarGUI();  
+    }
+    
+}
