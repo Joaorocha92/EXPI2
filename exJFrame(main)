@@ -77,9 +77,9 @@ public class main {
       JCheckBox checkBox02 = new JCheckBox("Item 02");
       panel.add(checkBox02);
       
-      JButton button =  new JButton("Botão 01");
-      panel.add(button);
-      button.addActionListener(new ActionListener() { 
+      JButton button2 =  new JButton("Botão 01");
+      panel.add(button2);
+      button2.addActionListener(new ActionListener() { 
       public void actionPerformed(ActionEvent e) { 
           JOptionPane.showMessageDialog(tela, 
                   "Item 01 Selecionado: " + checkBox01.isSelected() + "\nItem 02 Selecionado: " + checkBox02.isSelected());
@@ -93,8 +93,5 @@ public class main {
            
                 }  
                 }
-
-
-
 
 
